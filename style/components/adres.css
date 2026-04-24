@@ -1,0 +1,74 @@
+.adres_content {
+    padding: 50px;
+    min-height: 60vh;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.adres_title {
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #5D403E;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.map_btn {
+    background-color: #F1D0A8;
+    color: #5D403E;
+    font-family: 'RobotoCondensed', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 25px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.not_selected {
+    font-family: 'RobotoCondensed', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    color: #5D403E;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.address_label {
+    font-family: 'RobotoCondensed', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    color: #5D403E;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.address_input {
+    width: 100%;
+    padding: 15px;
+    background-color: #F1D0A8;
+    border: none;
+    border-radius: 30px;
+    font-family: 'RobotoCondensed', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.confirm_adres_btn {
+    width: 100%;
+    background-color: #C7C6B0;
+    color: #5D403E;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 24px;
+    border: none;
+    border-radius: 40px;
+    padding: 12px;
+    cursor: pointer;
+}

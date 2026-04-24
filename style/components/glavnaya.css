@@ -1,0 +1,98 @@
+.glavnaya_content {
+    padding: 100px;
+    position: relative;
+    min-height: 60vh;
+}
+
+.title {
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #5D403E;
+    font-size: 52px;
+    margin-bottom: 30px;
+    max-width: 1000px;
+}
+
+.filter_buttons {
+    display: flex;
+    margin-bottom: 50px;
+    width: 1000px;
+}
+
+.filter_btn {
+    background-color: #F1D0A8;
+    border: none;
+    padding: 12px 20px;
+    font-family: 'RobotoCondensed', sans-serif;
+    color: #5D403E;
+    font-size: 32px;
+    cursor: pointer;
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #5D403E;
+}
+
+.filter_btn:first-child {
+    border-radius: 50px 0 0 50px;
+}
+
+.filter_btn:last-child {
+    border-radius: 0 50px 50px 0;
+    border-right: none;
+}
+
+.main_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    margin-top: 30px;
+}
+
+.left_buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+.podobrat_btn {
+    background-color: #C7C6B0;
+    color: #5D403E;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 64px;
+    border: none;
+    border-radius: 60px;
+    padding: 25px 50px;
+    cursor: pointer;
+    width: 700px;
+}
+
+.korzina_btn {
+    background-color: #F1D0A8;
+    color: #5D403E;
+    font-family: 'RobotoCondensed', sans-serif;
+    font-size: 32px;
+    border: none;
+    border-radius: 60px;
+    padding: 18px 80px;
+    cursor: pointer;
+    width: 450px;
+}
+
+.right_image img {
+    width: 500px;
+}
+
+.bottom_logo {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+}
+
+.bottom_logo img {
+    width: 150px;
+}

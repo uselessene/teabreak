@@ -1,0 +1,60 @@
+.history_content {
+    padding: 50px;
+    min-height: 60vh;
+}
+
+.history_title {
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #5D403E;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.history_grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.history_card {
+    background-color: rgba(241, 208, 168, 0.7);
+    border-radius: 30px;
+    padding: 25px;
+}
+
+.status_info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.status_btn, .status_delivered {
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    display: inline-block;
+    width: fit-content;
+}
+
+.status_btn {
+    background-color: #F1D0A8;
+    color: #5D403E;
+    border: none;
+}
+
+.status_delivered {
+    background-color: #C7C6B0;
+    color: #5D403E;
+    border: none;
+}
+
+.order_sum, .order_number, .order_address {
+    font-family: 'RobotoCondensed', sans-serif;
+    color: #5D403E;
+    font-size: 16px;
+}

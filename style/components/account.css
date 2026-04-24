@@ -1,0 +1,126 @@
+.account_content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+    min-height: 60vh;
+    gap: 100px;
+}
+
+.account_left {
+    flex: 0 0 450px;
+}
+
+.account_title {
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #5D403E;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.profile_card {
+    background-color: rgba(241, 208, 168, 0.7);
+    border-radius: 30px;
+    padding: 40px;
+    width: 100%;
+}
+
+.profile_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(93, 64, 62, 0.3);
+}
+
+.profile_label {
+    font-family: 'RobotoCondensed', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    color: #5D403E;
+    font-size: 24px;
+}
+
+.profile_value img {
+    width: 40px;
+    height: 40px;
+}
+
+.email_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.email_row img {
+    width: 30px;
+    height: 30px;
+}
+
+.email_text {
+    font-family: 'RobotoCondensed', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    color: #5D403E;
+    font-size: 18px;
+}
+
+.settings_btn {
+    display: block;
+    width: fit-content;
+    margin: 30px auto 0;
+    background-color: #C7C6B0;
+    color: #5D403E;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 24px;
+    border: none;
+    border-radius: 40px;
+    padding: 12px 40px;
+    cursor: pointer;
+}
+
+.account_right {
+    flex: 0 0 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.big_icon img {
+    width: 250px;
+}
+
+.history_btn {
+    background-color: #C7C6B0;
+    color: #5D403E;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 24px;
+    border: none;
+    border-radius: 40px;
+    padding: 12px 60px;
+    cursor: pointer;
+    width: 300px;
+}
+
+.logout_btn {
+    background-color: #C7C6B0;
+    color: #5D403E;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 24px;
+    border: none;
+    border-radius: 40px;
+    padding: 12px 40px;
+    cursor: pointer;
+    width: 250px;
+}

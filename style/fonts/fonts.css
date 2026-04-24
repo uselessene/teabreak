@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Arimo';
+    src: url('/src/fonts/Arimo-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoCondensed';
+    src: url('/src/fonts/RobotoCondensed-Medium.ttf') format('truetype');
+}
+
+body {
+    font-family: 'RobotoCondensed', sans-serif;
+}

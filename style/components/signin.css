@@ -1,0 +1,85 @@
+.signin_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    gap: 100px;
+    padding: 200px;
+}
+
+.signin_image img {
+    width: 400px;
+}
+
+.signin_form {
+    width: 450px;
+}
+
+.signin_form h2 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #778773;
+    font-size: 48px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.input_group {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.input_group input {
+    width: 100%;
+    padding: 15px 50px 15px 20px;
+    background-color: #F1D0A8;
+    border: none;
+    border-radius: 30px;
+    font-family: 'RobotoCondensed', sans-serif;
+    font-size: 16px;
+    color: #5D403E;
+    box-sizing: border-box;
+}
+
+.input_group input::placeholder {
+    color: #5D403E;
+}
+
+.input_group img {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+}
+
+.signin_btn {
+    width: 100%;
+    background-color: #C7C6B0;
+    color: #5D403E;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 24px;
+    border: none;
+    border-radius: 40px;
+    padding: 12px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.signup_link {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'RobotoCondensed', sans-serif;
+    color: #5D403E;
+    font-size: 16px;
+}
+
+.signup_link a {
+    color: #778773;
+    text-decoration: none;
+    cursor: pointer;
+}
