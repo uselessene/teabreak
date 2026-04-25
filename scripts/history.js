@@ -16,14 +16,13 @@ class HistoryPage extends HTMLElement {
                     statusClass = 'status_btn';
                 }
                 const addressText = order.Address || 'Адрес не указан';
-                
                 historyHtml += `
                     <div class="history_card">
                         <div class="status_info">
                             <div class="${statusClass}">${statusText}</div>
                             <div class="order_sum">Сумма: ${order.Sum} ₽</div>
                             <div class="order_number">Номер заказа: ${order.Numbers_Orders}</div>
-                            <div class="order_address">Адрес доставки: ${addressText}</div>
+                            <div class="order_address">Адрес: ${addressText}</div>
                         </div>
                     </div>
                 `;
@@ -41,7 +40,7 @@ class HistoryPage extends HTMLElement {
                 <main>
                     <div class="history_content">
                         <div class="history_title">История заказов</div>
-                        <p>У вас пока нет заказов</p>
+                        <div class="history_empty">У вас пока нет заказов</div>
                     </div>
                 </main>
             `;
